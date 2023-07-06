@@ -106,7 +106,9 @@ main {
     margin-bottom: 30px;
 }
 .cabecalho__item a:hover{
-    border: none;
+    border: block;
+    padding-bottom: 0rem;
+
 }
 nav{
     width: 100%;

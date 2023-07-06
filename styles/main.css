@@ -105,6 +105,9 @@ main {
     text-align: center;
     margin-bottom: 30px;
 }
+.cabecalho__item a:hover{
+    border: none;
+}
 nav{
     width: 100%;
 }

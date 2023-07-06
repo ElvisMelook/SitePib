@@ -77,12 +77,36 @@ main {
 
 .principal__tema-titulo {
     font-family: 'Lateef', serif;
-    font-size: 15rem;
+    font-size: 5rem;
     color: white;
     text-shadow: 11px 11px 30px rgba(6, 158, 228, 0.87);
     align-items: center;
     position: relative; 
     display: flex;
     justify-content: center;
+
+}
+
+@media screen and (min-width: 390px ){
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cabecalho__menu{
+    flex-direction: column;
+    align-items: center;
+}
+.principal__tema-titulo{
+
+}
+.cabecalho__item{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav{
+    width: 100%;
+}
 
 }

@@ -57,18 +57,10 @@ body {
 
 }
 
-main {
-    /* background-image:url(../imagens/principal.jpg); */
-    /* background-repeat: no-repeat;
-    height: 50vw;
-    background-size: cover; */
-
-}
-
 .imagem__principal-- {
     background-image: url(../imagens/principal.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center top;
     filter:  contrast(140%);
     height: 100vh;
@@ -97,7 +89,6 @@ main {
         align-items: center;
     }
 
-    .principal__tema-titulo {}
 
     .cabecalho__item {
         width: 100%;
@@ -109,6 +100,10 @@ main {
         border: block;
         padding-bottom: 0rem;
 
+    }
+    .principal__tema-titulo{
+        font-size: 3rem;
+        padding-top: 90px;
     }
 
     nav {

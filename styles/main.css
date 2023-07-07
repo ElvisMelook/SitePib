@@ -28,7 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
 
 }
 
@@ -59,9 +59,9 @@ body {
 
 main {
     /* background-image:url(../imagens/principal.jpg); */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     height: 50vw;
-    background-size: cover;
+    background-size: cover; */
 
 }
 
@@ -69,10 +69,10 @@ main {
     background-image: url(../imagens/principal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(4px) contrast(150%);
-    height: 700px;
-    width: 100%;
-    position: absolute;
+    background-position: center top;
+    filter:  contrast(140%);
+    height: 100vh;
+    width: 100vw;
 }
 
 .principal__tema-titulo {
@@ -80,10 +80,8 @@ main {
     font-size: 5rem;
     color: white;
     text-shadow: 11px 11px 30px rgba(6, 158, 228, 0.87);
-    align-items: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+
 
 }
 
